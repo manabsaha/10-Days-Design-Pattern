@@ -18,6 +18,11 @@ The Strategy design pattern is quite common in the C# language due to its variou
 the changing behavior of a class without modifying it. This complies with the rules of the Open 
 Closed Principle, which we talked about in one of our previous articles.
 
+Usage examples: The Strategy pattern is very common in C# code. It’s often used in various frameworks 
+to provide users a way to change the behavior of a class without extending it.
+Identification: Strategy pattern can be recognized by a method that lets a nested object do the actual 
+work, as well as a setter that allows replacing that object with a different one.
+
 */
 
 /*
